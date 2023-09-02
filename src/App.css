@@ -1,0 +1,151 @@
+/* --------- This is CSS Reset Code --------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.App {
+	position: relative;
+	top: 0;
+	min-height: 100vh;
+  }
+  main {
+	padding-bottom: 200px;
+  }
+
+
+  
+button{
+	border-radius: 3px;
+	height: 2rem;
+	/* min-width: 120px; */
+	font-size: 20px;
+	border: none;
+	color: white;
+}
+/* button {
+	height: 45px;
+	min-width: 125px;
+	font-size: 20px;
+	border: none;
+	border-radius: 3px;
+  } */
+.flex-row{
+	display:flex;
+	flex-direction: row;
+	/* justify-content: space-evenly; */
+	/* align-content: space-between; */
+
+}
+.flex-col{
+	display:flex;
+	flex-direction: column;
+	/* align-items: center; */
+	/* justify-content: space-evenly; */
+}
+
+
+/* --------- Begin your CSS Below here --------- */
+header{
+	display: flex;
+	width:100%;
+	height:60px;
+	color: white;
+	background-color: chocolate;
+	/* font-size: large; */
+	font-weight: bold;
+	align-items: center;
+	justify-content: space-between;
+	/* align-content: center; */
+	padding: 0px 50px;
+	/* position:fixed; */
+	box-sizing: border-box;
+	
+}
+h2{
+	font-size: 24px;
+	color: white;
+}
+h1{
+	font-size: 55px;
+	color:rgb(182, 81, 8);
+	text-align:center ;
+	align-self: center;
+}
+h3{
+	color:white;
+	font-size: 22px;
+}
+nav button{ 
+	font-size:medium;
+	margin-right: 10px;
+	color:white;
+	background-color: rgba(210, 105, 30, 0.646);
+	font-weight: bold;
+	border: none;
+	transition: all 0.15s ease-in-out;
+}
+
+nav button:hover{
+	background-color:rgb(241, 172, 10);
+	box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.blue-btn{
+
+	background-color:rgb(71, 161, 133);
+	padding:5px;
+	min-width: 125px;
+}
+
+
+footer{
+	height: 115px;
+	width: 100%;
+	background-color: #3f3f3f;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 20px;
+	position:absolute;
+	bottom: 0;
+	box-sizing: border-box; 
+	
+	/* position: fixed;  */
+}
+
+	
+.icons{
+	gap: 5px;
+	display: flex;
+	
+}
+.circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color:rgb(8, 108, 108);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+  }
+
+
+

@@ -1,0 +1,77 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+form{
+	display:flex;
+	flex-direction: column;
+    /* width: 50vw; */
+    font-size: 25px;
+    /* height: fit-content; */
+    margin:10px;
+    margin-top: 30px;
+  
+}
+form h3{
+    color:black;
+    font-size:30px;
+    text-align: center;
+}
+
+h5{
+    font-size: 25px;
+    color:rgb(53, 49, 49)
+}
+
+.div-input{
+    gap:10px;  
+    display:flex;
+	/* flex-direction: row; */
+    /* flex-wrap:wrap; */
+    /* align-items: center; */
+    /* margin: 10px; */
+    /* justify-content: space-between; */
+   
+}
+
+.div-input input{
+    border:rgb(206, 202, 202);
+    border-style:solid;
+    font-size: 20px;
+    width: 100%;
+    padding:10px;
+  }
+.div-input input:focus {
+    outline:rgb(18, 17, 17);
+}
+
+.div-radio{
+    display: flex;
+    justify-content: space-around;     
+}
+.div-radio span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.div-ingredient{
+    display: flex;
+    flex-direction: column;
+   /* justify-content: space-between; */
+   /* margin: 10px; */
+   gap:10px;
+}
+.orange-btn{
+    background-color: chocolate;
+}
+form ul{
+    margin-left:29px;
+}
+form button{
+    align-self: center;
+    margin: 10px;
+    padding:5px;
+
+}
