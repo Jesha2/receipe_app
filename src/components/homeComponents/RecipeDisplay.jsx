@@ -4,6 +4,7 @@ import "./homeComponents.css";
 
 
 const RecipeDisplay = ({recipes,search}) => {
+  console.log(recipes);
     const recipeDisplay = recipes
     .filter((recipe, index) => {
       let title = recipe.recipe_name.toLowerCase()
